@@ -1,18 +1,17 @@
 github:
+  description: "ASF Corporate Treasurer Information
+  homepage: https://treasurer.apache.org/
   features:
     # Enable issue management
     issues: true
 
-notifications:
-  commits:      commits@petri.apache.org
-  issues:       discuss@petri.apache.org
-  pullrequests: discuss@petri.apache.org
-
 pelican:
-  notify:         commits@petri.apache.org
+  notify:         wave@apache.org
   autobuild:      true
   target:         asf-site
   theme:          theme/apache
-  whoami:         master
+  whoami:         main
 
-staging: false
+staging:
+  profile:	 ~
+  whoami:	 asf-site
