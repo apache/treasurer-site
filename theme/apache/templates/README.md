@@ -31,6 +31,7 @@ Each of the above files should be edited as needed for the deployed website.
 SITENAME = u'Apache <pmc>'
 SITEDOMAIN = '<pmc>.apache.org'
 SITEURL = 'https://<pmc>.apache.org'
+SITEREPOSITORY = 'https://github.com/apache/<pmc-site>/blob/<branch>/content/pages/'
 TRADEMARKS = u'Apache, the Apache feather logo, and <pmc> are trademarks or registered trademarks'
 CURRENTYEAR = date.today().year
 ~~~
