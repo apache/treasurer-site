@@ -37,6 +37,7 @@ SITEDOMAIN = 'treasurer.apache.org'
 SITEURL = 'https://treasurer.apache.org'
 # SITELOGO = 'https://treasurer.apache.org/images/logo.png'
 # SITEDESC = u'<blank>'
+SITEREPOSITORY = 'https://github.com/apache/treasurer/blob/main/content/pages/'
 TRADEMARKS = u'Apache and the Apache feather logo are trademarks or registered trademarks'
 CURRENTYEAR = date.today().year
 
