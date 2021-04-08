@@ -33,7 +33,7 @@
       {% block content %}
       {% endblock %}
     </div>
-      <p>Slug="{{ page.slug }}"; Url="{{ page.url }}"</p>
+    <h2><span class="badge badge-secondary"><a href="{{ SITEREPOSITORY }}{{ page.slug }}.md" style="color:white">Edit Page</a></span></h2>
     {% include "footer.html" %}
 
     {% include "scripts.html" %}
