@@ -1,4 +1,4 @@
-Title: ASF Corporate Treasurer Information
+Title:
 <!-- Licensed under ALv2 -->
 
 <div class="panel panel-success">
