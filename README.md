@@ -2,7 +2,7 @@
 
 [Apache Treasurer](https://treasurer.apache.org/)
 
-This repository provides the website and source code for Apache Petri.
+This repository provides the website and source code for The Apache Software Foudnation office of the Treasurer.
 
 - [Pages](content/pages) -- website pages in GitHub Markdown
 - [Issues](https://github.com/apache/treasurer-site/issues) -- tracker
