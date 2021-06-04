@@ -1,0 +1,317 @@
+<!doctype html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+         https://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>&nbsp;</title>
+
+
+
+    <!-- Start favicon styles - use apache feather -->
+    <link rel="shortcut icon" href="https://www.apache.org/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.apache.org/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.apache.org/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.apache.org/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.apache.org/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.apache.org/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.apache.org/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.apache.org/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.apache.org/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.apache.org/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-16x16.png" sizes="16x16">
+    <!--<link rel="manifest" href="https://www.apache.org/favicons/manifest.json" crossorigin="anonymous">-->
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="https://www.apache.org/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="https://www.apache.org/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+    <!-- End favicon styles - use apache feather -->
+
+    <!-- Start load of stylesheets (will need to upgrade periodically) -->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css"
+      crossorigin="anonymous">
+    <!-- Override css for this site. You can do this inline as shown here or with a site asset. See comment.-->
+    <style>
+html {
+  font-size: 18px;
+}
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+.footer {
+  border-top: 1px solid black;
+  padding-top: 3px;
+}
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
+blockquote {
+  background: bisque;
+}
+.bg-primary {
+  background-color: #005bff!important;
+}
+a {
+  font-weight: 500;
+  color: #005bff;
+}
+li {
+  line-height: 2;
+ }
+.h1, h1 {
+  font-size: 1.5rem;
+}
+.h2, h2 {
+  font-size: 1.4rem;
+}
+.h3, h3 {
+  font-size: 1.3rem;
+}
+.h4, h4 {
+  font-size: 1.2rem;
+}
+.h5, h5 {
+  font-size: 1.1rem;
+}
+.panel-body {
+    padding:15px
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-top-left-radius: -1px;
+    border-top-right-radius:-1px
+}
+.panel-title {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+.panel-group .panel-heading {
+    border-bottom:0
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top:1px solid #ddd
+}
+.panel-success {
+  border-color: #b7d2b3;
+}
+.panel-success > .panel-heading {
+    color: #4e844f;
+    background-color: #c3dbc3;
+    border-color:#b7d2b3
+}
+.panel-info {
+  border-color: #d6c6ec;
+}
+.panel-info > .panel-heading {
+    color: #662f8f;
+    background-color: #ede1f5;
+    border-color:#d6c6ec
+}
+    </style>
+    <!--<link rel="stylesheet" href="/styles/styles.css">-->
+    <!-- End stylesheets -->
+  </head>
+
+  <body id="index" class="home">
+    <!-- Start branding and top navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <img src="https://www.apache.org/foundation/press/kit/feather.svg"
+        width="30" height="30" class="d-inline-block align-top"
+        alt="Apache Feather">
+      <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">ASF Corporate Treasurer Information</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/cc_policy">Credit Cards</a>
+          </li>
+        </ul>
+        <div class="navbar-nav">
+          <div class="nav-item dropdown dropdown-menu-right active">
+            <a class="nav-link dropdown-toggle" href="#"
+              role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">About</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="https://www.apache.org/">Foundation</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item"
+                href="https://www.apache.org/licenses/">License</a>
+              <a class="dropdown-item"
+                href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a>
+              <a class="dropdown-item"
+                href="https://www.apache.org/foundation/thanks.html">Thanks</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item"
+                href="https://www.apache.org/security/">Security</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End branding and top navigation -->
+
+    <!-- Start main content area -->
+    <div class="container">
+    <h1>&nbsp;</h1>
+    
+
+    <div class="card">
+<div class="card-header">
+<h2>ASF Financial Systems Access Policy</h2>
+</div>
+<div class="card-body">
+<h2>Purpose</h2>
+<p>The Apache Software Foundation, is a recognized 501(c)(3) charitable foundation.  The Treasurer's office is responsible for multiple systems which
+provide control over ASF funds, and data which verifies that control.  Many of these systems contain private information for donors, employees, and
+volunteers of The ASF.  It is important that we be able to both protect privacy, and maintain an appropriate level of auditability and oversight in
+these systems.  It is also important that when new volunteers step up to serve as Treasurer, or Assistant Treasurer, that we be able to facilitate
+these transitions.  Similarly, it is important that the Foundation not become to dependent on a single vendor.</p>
+<p>This policy explains how and for whom user accounts within these systems can be provisioned, and how passwords and user names are to be managed in
+order to achieve these goals.</p>
+<h2>Who can access Financial systems</h2>
+<p>Financial systems can be accessed by:</p>
+<ul>
+<li>The Treasurer and Assistant Treasurer</li>
+<li>Employees of the accounting firm which the Treasurer has tasked with keeping the Foundation's books.</li>
+<li>Upon request: board members</li>
+<li>Upon request or if needed: The President, and Executive Vice President</li>
+<li>If needed: The Infrastructure Administrator</li>
+<li>If needed: The Secretary and Assistant Secretary</li>
+<li>If needed: VP Fundraising and VP Sponsor Relations</li>
+</ul>
+<p>People formerly in these roles may continue to have access for a period while the transition takes place.</p>
+<h2>Organizational accounts and Individual user accounts vs. Role-based accounts</h2>
+<p>Many financial systems offer organizational or tenant accounts.  In such systems, multiple user accounts can access the system.  Frequently actions of those
+users such as viewing data or changing data create an audit trail uniquely associated with that user. This audit trail helps to protect The ASF against
+mistakes and malicious behavior by making some actions reversable, and all actions discoverable.</p>
+<p>Role-based accounts have the advantage that they are easy to transfer and share between individuals.  A frequent pattern is to provide a mailing list as
+the email address for an account.  Unfortunately, role-based accounts handicap the auditing capabilities for financial systems.  If multiple users share
+the same account, it is no longer possible to know which of them performed an action or viewed data.</p>
+<p>Single-user accounts are accounts which only one person has access to.  Single user-accounts are difficult to transition between volunteers, and impossible
+to maintain oversight on.</p>
+<h2>Password manager</h2>
+<p>Infra has provided Treasurer and Fundraising offices with access to a central
+password manager.  If you are performing services for the Treasurer's office and need access to our password manager, please create a Jira ticket with
+Infra.  Infra will then confirm with the treasurer's office before providing access to any password vaults.</p>
+<h2>Policies</h2>
+<ul>
+<li>We <em>never</em> use systems which only offer single-user accounts.  We will seek alternatives to any such systems, or do without.</li>
+<li>If a system can offer multiple user accounts within an organization, we <em>never</em> use role-based accounts within that system.</li>
+<li>If a system contains private information for donors, employees, or volunteers, we <em>never</em> use role-based accounts within that system.  If the system
+contains private information and does not offer organizational accounts, we will seek alternatives to using that system.</li>
+<li>If a system makes it possible to move money, we <em>never</em> use role-based accounts within that system.</li>
+<li>You <em>must</em> use a password manager for your user account passwords.  Those passwords <em>must not</em> be visible to anyone but yourself</li>
+<li>If an account offers some form of Two Factor Authentication, you are <em>required</em> to activate it.</li>
+<li>For role-based accounts, you <em>must</em> use the central passord manager provided, and place passwords in the appropriate vaults.</li>
+<li>For systems with organizational accounts, at least the Treasurer and Assistant Treasurer <em>must</em> have access.<br />
+Ideally a third and fourth person should also have access for continuity.</li>
+<li>User accounts will be provisioned with minimum a range of capabilities appropriate to the role of the person who is accessing the system.  For example, the
+accountant requires read access to our bank account, but does not need the ability to transfer funds.  For example, VP Fundraising may need access to
+certain donor data but does not need access to employee data.</li>
+<li>A complete list of ASF Financial systems will be maintained by the Treasurer under the <a href="https://cwiki.apache.org/confluence/display/ASFP/Treasurer+Internal">Treasurer's Wiki</a>.</li>
+</ul>
+</div>
+</div>
+
+
+        <!-- button to view source in github -->
+        <h2><span class="badge badge-secondary"><a href="https://github.com/apache/treasurer-site/blob/main/content/pages/financial_systems_access_policy.md" style="color:white">Page Source</a></span></h2>
+    </div>
+    <!-- End main content area -->
+
+    <!-- Start footer -->
+    <footer class="navbar-expand-lg navbar-light bg-light">
+      <div class="footer" id="footer">
+        <div class="row container-fluid">
+          <div class="col-sm">
+            <a href="https://www.apache.org/">
+              <img src="https://www.apache.org/img/asf_logo.png" alt="The Apache Software Foundation" style="border: 0; margin-top: 2px" width="200">
+            </a>
+          </div>
+          <div class="col-sm center-align">
+            <a href="https://www.apache.org/foundation/contributing.html">
+              <img src="https://www.apache.org/images/SupportApache-small.png" alt="Support The ASF" height="80" width="80">
+            </a>
+          </div>
+          <div class="col-sm right-align">
+            <a class="acevent" data-format="wide" data-mode="light" data-event="random"></a>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          Copyright &copy; 2021 The Apache Software Foundation,
+          Licensed under the
+          <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+          <br/>
+          Apache and the Apache feather logo are trademarks or registered trademarks of <a href="https://www.apache.org/">The Apache Software Foundation.</a>
+        </div><!-- #container-fluid -->
+
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Start the loading of javascript frameworks (will need to upgrade periodically) -->
+    <script src="https://www.apachecon.com/event-images/snippet.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
+      integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <!-- End the loading of javascript frameworks -->
+
+  </body>
+</html>
