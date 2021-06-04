@@ -69,7 +69,7 @@ contains private information and does not offer organizational accounts, we will
 * User accounts will be provisioned with minimum a range of capabilities appropriate to the role of the person who is accessing the system.  For example, the 
   accountant requires read access to our bank account, but does not need the ability to transfer funds.  For example, VP Fundraising may need access to 
   certain donor data but does not need access to employee data.
-* A complete list of ASF Financial systems will be maintained by the Treasurer under Confluence ASFP.
+* A complete list of ASF Financial systems will be maintained by the Treasurer under the <a href="https://cwiki.apache.org/confluence/display/ASFP/Treasurer+Internal">Treasurer's Wiki</a>.
 
 </div>
 
