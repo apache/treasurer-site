@@ -6,8 +6,7 @@ github:
     issues: true
 
 pelican:
-  notify:         wave@apache.org
-  autobuild:      true
+  notify:         treasurer@apache.org
   target:         asf-site
   theme:          theme/apache
   whoami:         main
