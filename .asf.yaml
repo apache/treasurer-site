@@ -6,7 +6,7 @@ github:
     issues: true
 
 pelican:
-  notify:         treasurer@apache.org
+  notify:         team@treasurer.apache.org
   target:         asf-site
   theme:          theme/apache
   whoami:         main
