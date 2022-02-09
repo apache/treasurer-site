@@ -1,4 +1,6 @@
-# ORGANIZATION
+# Investment Policy Statement
+
+## Organization
 
 Established in 1999, The Apache Software Foundation ("ASF") is a
 United States 501(c)(3) charitable organization, funded by individual
@@ -6,7 +8,7 @@ donations and corporate sponsors.  Organizational affairs of the ASF
 are managed following the bylaws (https://www.apache.org/foundation/bylaws.html).
 
 
-PURPOSE
+## Purpose
 
 This statement establishes policies, guidelines, and procedures
 related to all investable assets held by The ASF.  In doing so the
@@ -22,9 +24,9 @@ policy:
  organizations’ investments.
 
 
-ROLES AND RESPONSIBILITIES
+## Roles and Responsibilities
 
-Board of Directors:
+### Board of Directors
 
 The Board of Directors has a direct oversight role regarding all
 decisions that impact The Apache Software Foundation’s investable
@@ -38,7 +40,7 @@ advice and recommendations of the Treasurer, the Board shall:
  operating needs while reflecting the long-term risk-adjusted return
  objectives of the endowment.
 
-Treasurer:
+### Treasurer
 
 The Treasurer shall not be held accountable for portfolio performance.
 Instead, the Treasurer is responsible for the development, recommendation,
@@ -78,7 +80,7 @@ management of investable assets. Specifically, the Treasurer shall:
  due diligence and ongoing monitoring of investments
 * prepare and issue periodic status reports to the Board
 
-Investment Advisor:
+### Investment Advisor
 
 The Investment Advisor is responsible for all aspects of managing and
 overseeing the portfolio.  On an ongoing basis the Investment Advisor
@@ -97,7 +99,7 @@ will:
  strategy, organization changes (if any), and any other pertinent
  matters identified by the Board, and/or the Investment Advisor.
 
-Custodian:
+### Custodian
 
 The Custodian will be responsible for the safekeeping of securities
 held by The ASF.  Additional responsibilities include the collection
@@ -112,7 +114,7 @@ responsibilities and obligations to administer portfolio assets
 prudently.
 
 
-FIDUCIARY RESPONSIBILITY
+## Fiduciary Responsibility
 
 In seeking to attain the investment objectives set forth in this IPS,
 members of the Board, the Treasurer, Assistant Treasurer, the
@@ -141,7 +143,7 @@ of the applicable decision-making body:
  organization’s purposes.
 
 
-PROHIBITED INVESTMENTS
+## Prohibited Investments
 
 The following investments and investment activities are prohibited:
 * Private placements
@@ -153,7 +155,7 @@ The following investments and investment activities are prohibited:
 * Margin transactions
 
 
-OPERATING ACCOUNT
+## Operating Account
 
 The ASF has established a demand deposit account to support its
 day-to-day operating needs.  The ASF will seek to maintain a target
@@ -162,7 +164,7 @@ board-approved budget in this account to accommodate operating and
 other expenses.
 
 
-OPERATING RESERVE
+## Operating Reserve
 
 The ASF has additional reserves set aside to serve as a separate
 Operating Reserve.  This portfolio is meant to meet the expenses
@@ -179,7 +181,7 @@ The portfolio must be well diversified and consist of fixed-income
 securities rated "A" or better.
 
 
-ENDOWMENT
+## Endowment
 
 The ASF's Endowment is meant to support the organization in perpetuity
 and thus has a longer time horizon and a substantially different risk
@@ -192,7 +194,7 @@ consider it when making decisions regarding the management and
 investment of the fund. Any attempt to lift restrictions on any fund
 shall be conducted in full compliance with the law.
 
-Time Horizon:
+### Time Horizon
 
 The Treasurer seeks to achieve the investment objectives over a full
 market cycle.  The Treasurer does not expect that all investment
@@ -202,14 +204,14 @@ performance relative to broad markets.  For this reason, long-term
 investment returns will be measured net of fees over a five-year
 moving average.
 
-Spending Policy:
+### Spending Policy
 
 Distributions from the corpus, income and/or appreciation of The ASF's
 Endowment is prohibited unless approved by the Board in advance.  The
 Board will keep a record of its deliberations and address the factors
 considered when making its decisions.
 
-Strategy:
+### Strategy
 
 The Board and Committee agree that the benefit of investing in
 securities with higher return expectations outweighs the short-term
@@ -223,7 +225,7 @@ volatility risk.
  the investment process and will be used to meet short-term liquidity
  needs.
 
-Asset Class Guidelines:
+### Asset Class Guidelines
 
 Asset allocation will likely be the key determinant of the portfolio's
 total return over the long-term.  Thus, diversification of investment
@@ -245,14 +247,14 @@ identifies the strategic target weights for each of the major asset
 classes.  The table below highlights these asset classes and
 identifies strategic target weights and allowable ranges.
 
-Asset Allocation:
+### Asset Allocation
 
                        Target  Low   High
 Equity                   60%    40%   75%
 Fixed Income             40%    20%   55%
 Cash / Cash Equivalents  2%     1%    10%
 
-Rebalancing:
+### Rebalancing
 
 The Investment Advisor is expected to continually monitor the
 portfolio mix and provide quarterly reports to the Treasurer. Neither
@@ -264,14 +266,14 @@ Advisor. Rebalancing should be considered at least annually. It is
 recommended that the target allocation be maintained so that the
 portfolio will be able to achieve its long-term goals.
 
-Manager Selection:
+### Manager Selection
 
 The Investment Advisor's selection of Investment Manager(s) must be
 based on prudent due diligence procedures. A qualifying Investment
 Manager must be a registered investment advisor under the Investment
 Advisers Act of 1940, or a bank or insurance company.
 
-Active Versus Passive Management:
+### Active Versus Passive Management
 
 Asset allocation will be implemented using both active and passive
 investment managers.  Highly efficient areas of the capital markets
@@ -279,7 +281,7 @@ may be managed using lower cost index or exchange traded funds while
 other asset classes may be managed using active managers and
 strategies that the Advisor believes have the ability to outperform.
 
-Investment Advisor Performance Review and Evaluation:
+### Investment Advisor Performance Review and Evaluation
 
 Performance reports generated by the Investment Advisor shall be
 compiled at least quarterly and communicated to the Treasurer for
@@ -292,7 +294,7 @@ this IPS. The Treasurer intends to evaluate the portfolio(s) over at
 least a three-year period but reserves the right to terminate an
 Investment Advisor for any reason.
 
-Benchmarks:
+### Benchmarks
 
 The primary investment objective is to achieve a total return
 exceeding that of the target weighted benchmark established by the
@@ -307,7 +309,7 @@ International Equity   MSCI World Equity Ex US NR USD
 Fixed Income           Barclays Capital U.S. Aggregate Bond
 
 
-INVESTMENT POLICY REVIEW
+## Investment Policy Review
 
 The Treasurer will review this IPS at least annually to determine
 whether the stated investment objectives remain relevant. It is not
