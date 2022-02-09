@@ -1,0 +1,576 @@
+<!doctype html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one or more
+    contributor license agreements.  See the NOTICE file distributed with
+    this work for additional information regarding copyright ownership.
+    The ASF licenses this file to You under the Apache License, Version 2.0
+    (the "License"); you may not use this file except in compliance with
+    the License.  You may obtain a copy of the License at
+         https://www.apache.org/licenses/LICENSE-2.0
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<html lang="en" prefix="og: https://ogp.me/ns#">
+  <head>
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>&nbsp;</title>
+
+
+
+    <!-- Start favicon styles - use apache feather -->
+    <link rel="shortcut icon" href="https://www.apache.org/favicons/favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://www.apache.org/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://www.apache.org/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://www.apache.org/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://www.apache.org/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.apache.org/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.apache.org/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://www.apache.org/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.apache.org/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.apache.org/favicons/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-194x194.png" sizes="194x194">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="https://www.apache.org/favicons/favicon-16x16.png" sizes="16x16">
+    <!--<link rel="manifest" href="https://www.apache.org/favicons/manifest.json" crossorigin="anonymous">-->
+    <meta name="msapplication-TileColor" content="#603cba">
+    <meta name="msapplication-TileImage" content="https://www.apache.org/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="https://www.apache.org/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#282661">
+    <!-- End favicon styles - use apache feather -->
+
+    <!-- Start load of stylesheets (will need to upgrade periodically) -->
+    <link rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css"
+      crossorigin="anonymous">
+    <!-- Override css for this site. You can do this inline as shown here or with a site asset. See comment.-->
+    <style>
+html {
+  font-size: 18px;
+}
+.markdown-body {
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 45px;
+}
+@media (max-width: 767px) {
+  .markdown-body {
+    padding: 15px;
+  }
+}
+.footer {
+  border-top: 1px solid black;
+  padding-top: 3px;
+}
+.right-align {
+  text-align: right;
+}
+.center-align {
+  text-align: center;
+}
+blockquote {
+  background: bisque;
+}
+.bg-primary {
+  background-color: #005bff!important;
+}
+a {
+  font-weight: 500;
+  color: #005bff;
+}
+li {
+  line-height: 2;
+ }
+.h1, h1 {
+  font-size: 1.5rem;
+}
+.h2, h2 {
+  font-size: 1.4rem;
+}
+.h3, h3 {
+  font-size: 1.3rem;
+}
+.h4, h4 {
+  font-size: 1.2rem;
+}
+.h5, h5 {
+  font-size: 1.1rem;
+}
+.panel-body {
+    padding:15px
+}
+.panel-heading {
+    padding: 10px 15px;
+    border-top-left-radius: -1px;
+    border-top-right-radius:-1px
+}
+.panel-title {
+    margin-top: 0;
+    font-size: 1.3rem;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 0;
+  box-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+.panel-group .panel-heading {
+    border-bottom:0
+}
+.panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top:1px solid #ddd
+}
+.panel-success {
+  border-color: #b7d2b3;
+}
+.panel-success > .panel-heading {
+    color: #4e844f;
+    background-color: #c3dbc3;
+    border-color:#b7d2b3
+}
+.panel-info {
+  border-color: #d6c6ec;
+}
+.panel-info > .panel-heading {
+    color: #662f8f;
+    background-color: #ede1f5;
+    border-color:#d6c6ec
+}
+    </style>
+    <!--<link rel="stylesheet" href="/styles/styles.css">-->
+    <!-- End stylesheets -->
+  </head>
+
+  <body id="index" class="home">
+    <!-- Start branding and top navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <img src="https://www.apache.org/foundation/press/kit/feather.svg"
+        width="30" height="30" class="d-inline-block align-top"
+        alt="Apache Feather">
+      <button class="navbar-toggler" type="button"
+        data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">ASF Corporate Treasurer Information</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/cc_policy">Credit Cards</a>
+          </li>
+        </ul>
+        <div class="navbar-nav">
+          <div class="nav-item dropdown dropdown-menu-right active">
+            <a class="nav-link dropdown-toggle" href="#"
+              role="button" data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">About</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="https://www.apache.org/">Foundation</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item"
+                href="https://www.apache.org/licenses/">License</a>
+              <a class="dropdown-item"
+                href="https://www.apache.org/foundation/sponsorship.html">Sponsorship</a>
+              <a class="dropdown-item"
+                href="https://www.apache.org/foundation/thanks.html">Thanks</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item"
+                href="https://www.apache.org/security/">Security</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- End branding and top navigation -->
+
+    <!-- Start main content area -->
+    <div class="container">
+    <h1>&nbsp;</h1>
+    
+
+    <h1>Investment Policy Statement</h1>
+<h2>Organization</h2>
+<p>Established in 1999, The Apache Software Foundation (&quot;ASF&quot;) is a
+United States 501(c)(3) charitable organization, funded by individual
+donations and corporate sponsors.  Organizational affairs of the ASF
+are managed following the bylaws (<a href="https://www.apache.org/foundation/bylaws.html">https://www.apache.org/foundation/bylaws.html</a>).</p>
+<h2>Purpose</h2>
+<p>This statement establishes policies, guidelines, and procedures
+related to all investable assets held by The ASF.  In doing so the
+policy:</p>
+<ul>
+<li>defines the duties and responsibilities of all parties involved in
+the management of investable funds</li>
+<li>identifies the objectives, risk profiles, and benchmarks for each
+purpose-driven investment pool</li>
+<li>outlines policies and procedures relative to the expenditure of
+institutional funds</li>
+<li>serves to assist the Board in effectively supervising, monitoring,
+and evaluating the investment of The ASF's management of the
+organizations’ investments.</li>
+</ul>
+<h2>Roles and Responsibilities</h2>
+<h3>Board of Directors</h3>
+<p>The Board of Directors has a direct oversight role regarding all
+decisions that impact The Apache Software Foundation’s investable
+assets. The Board must ensure that appropriate policies governing the
+management of the portfolio(s) are in place and that these policies
+are being effectively implemented.  In doing so, the Board sets and
+approves the Investment Policy Statement and delegates responsibility
+for the management of these funds to the Treasurer. Based on the
+advice and recommendations of the Treasurer, the Board shall:</p>
+<ul>
+<li>adopt an investment strategy that addresses the organization's
+operating needs while reflecting the long-term risk-adjusted return
+objectives of the endowment.</li>
+</ul>
+<h3>Treasurer</h3>
+<p>The Treasurer shall not be held accountable for portfolio performance.
+Instead, the Treasurer is responsible for the development, recommendation,
+implementation and maintenance of all policies relative to The ASF's
+investable funds and shall:</p>
+<ul>
+<li>present investment strategy recommendations to the Board.  These
+recommendations should address short and long-term objectives,
+liquidity needs and diversification</li>
+<li>recommend the retention and/or dismissal of an Investment Advisor
+and/or other outside professionals</li>
+<li>meet with the Investment Advisor on a regular basis (quarterly /
+semi-annually) to evaluate and assess compliance with investment
+guidelines, performance, outlook and investment strategies; monitor
+asset allocation and rebalance assets</li>
+<li>on an annual basis, evaluate whether this policy, investment
+activities, risk management controls and processes remain consistent
+with set goals and objectives</li>
+</ul>
+<p>The Treasurer and Assistant Treasurers shall also be responsible for
+the day-to-day administration and implementation of policies
+established by the Board and/or the Treasurer concerning the
+management of investable assets. Specifically, the Treasurer shall:</p>
+<ul>
+<li>serve as the primary liaison between the Investment Advisor and/or
+other outside professionals that may be retained to assist in the
+management of such funds</li>
+<li>oversee the day-to-day operational activities subject to policies
+established by the Board</li>
+<li>contract with any necessary outside service providers, such as:
+Investment Advisors, investment managers, banks and/or trust
+companies etc.</li>
+<li>ensure that service providers adhere to the terms and conditions of
+their contracts; have no material conflicts of interest with the
+interests of The ASF; and ensure that performance monitoring is
+sufficient to provide the Treasurer with timely, accurate and useful
+information</li>
+<li>comply with official accounting and auditing guidelines regarding
+due diligence and ongoing monitoring of investments</li>
+<li>prepare and issue periodic status reports to the Board</li>
+</ul>
+<h3>Investment Advisor</h3>
+<p>The Investment Advisor is responsible for all aspects of managing and
+overseeing the portfolio.  On an ongoing basis the Investment Advisor
+will:</p>
+<ul>
+<li>monitor the asset allocation to promote diversification in the
+portfolio</li>
+<li>implement an unbiased, open-architecture approach to
+manager/security selection</li>
+<li>provide the Treasurer with quarterly performance reports</li>
+<li>assist the Treasurer with periodic reviews of this Investment Policy
+including an assessment of the current asset allocation and
+investment objectives</li>
+<li>supply the Treasurer with other reports or information as requested</li>
+<li>attend meetings with the Treasurer and/or Board concerning
+performance results, economic outlook, efficacy of investment
+strategy, organization changes (if any), and any other pertinent
+matters identified by the Board, and/or the Investment Advisor.</li>
+</ul>
+<h3>Custodian</h3>
+<p>The Custodian will be responsible for the safekeeping of securities
+held by The ASF.  Additional responsibilities include the collection
+of dividend and interest payments, redemption of maturing securities,
+and receipt of delivery following purchases or sales.  The Custodian
+will provide accounting of all assets owned, purchased, or sold, and
+the movement of assets into or out of The ASF's account(s).</p>
+<p>Additional specialists, such as attorneys, auditors, actuaries, and
+others may be employed by the Board to assist in meeting its
+responsibilities and obligations to administer portfolio assets
+prudently.</p>
+<h2>Fiduciary Responsibility</h2>
+<p>In seeking to attain the investment objectives set forth in this IPS,
+members of the Board, the Treasurer, Assistant Treasurer, the
+Investment Advisor, and all other persons acting as fiduciaries, shall
+exercise prudence and appropriate care in accordance with the Uniform
+Prudent Management of Institutional Funds Act (UPMIFA).  All
+investment actions and decisions must be made solely in the interest
+of The ASF and fiduciaries must provide full and fair disclosure to
+the Board regarding all material facts pertaining to any potential
+conflicts of interest.  When making any decision relative to the
+expenditure of donated funds, each of the following factors must be
+considered, and properly documented, in the minutes or other records
+of the applicable decision-making body:</p>
+<ul>
+<li>general economic conditions;</li>
+<li>possible effect of inflation or deflation;</li>
+<li>expected tax consequences, if any, of investment decisions or
+strategies;</li>
+<li>the role that each investment or course of action plays within the
+overall investment portfolio of the fund;</li>
+<li>expected total return from the income and appreciation of
+investments;</li>
+<li>other resources of the organization;</li>
+<li>the needs of the organization and the fund to make distributions and
+preserve capital;</li>
+<li>an asset’s special relationship or special value, if any, to the
+organization’s purposes.</li>
+</ul>
+<h2>Prohibited Investments</h2>
+<p>The following investments and investment activities are prohibited:</p>
+<ul>
+<li>Private placements</li>
+<li>Letter stock</li>
+<li>Derivatives (excluding mutual funds which may buy or sell
+derivatives for the purposes of managing portfolio risk)</li>
+<li>Commodity contracts</li>
+<li>Short sales</li>
+<li>Margin transactions</li>
+</ul>
+<h2>Operating Account</h2>
+<p>The ASF has established a demand deposit account to support its
+day-to-day operating needs.  The ASF will seek to maintain a target
+balance of 50%-75% of the yearly expenses contained in the most recent
+board-approved budget in this account to accommodate operating and
+other expenses.</p>
+<h2>Operating Reserve</h2>
+<p>The ASF has additional reserves set aside to serve as a separate
+Operating Reserve.  This portfolio is meant to meet the expenses
+occurring as a result of unanticipated fundraising shortfalls or
+unanticipated board-approved expenses, and to improve the return on
+funds held in the operating account.</p>
+<p>The objectives of this portfolio are in order of priority:</p>
+<ol>
+<li>Preservation of Principal</li>
+<li>Liquidity</li>
+<li>Rate of Return</li>
+</ol>
+<p>The portfolio must be well diversified and consist of fixed-income
+securities rated &quot;A&quot; or better.</p>
+<h2>Endowment</h2>
+<p>The ASF's Endowment is meant to support the organization in perpetuity
+and thus has a longer time horizon and a substantially different risk
+profile than the Operating Reserve.  In all instances, donor intent
+shall be respected when decisions are rendered concerning the
+investment or expenditure of donor restricted funds. If a donor, in
+the gift instrument, has directed that appreciation not be spent, The
+Apache Software Foundation shall comply with that directive and
+consider it when making decisions regarding the management and
+investment of the fund. Any attempt to lift restrictions on any fund
+shall be conducted in full compliance with the law.</p>
+<h3>Time Horizon</h3>
+<p>The Treasurer seeks to achieve the investment objectives over a full
+market cycle.  The Treasurer does not expect that all investment
+objectives will be attained each year and recognizes that over various
+time periods the portfolio may produce significant over or under
+performance relative to broad markets.  For this reason, long-term
+investment returns will be measured net of fees over a five-year
+moving average.</p>
+<h3>Spending Policy</h3>
+<p>Distributions from the corpus, income and/or appreciation of The ASF's
+Endowment is prohibited unless approved by the Board in advance.  The
+Board will keep a record of its deliberations and address the factors
+considered when making its decisions.</p>
+<h3>Strategy</h3>
+<p>The Board and Committee agree that the benefit of investing in
+securities with higher return expectations outweighs the short-term
+volatility risk.</p>
+<ul>
+<li>Equity and equity-like strategies will be used for capital
+appreciation.</li>
+<li>Fixed income and diversifying strategies will be used to lower
+short-term volatility and provide stability, especially during
+periods of deflation and negative equity markets.</li>
+<li>Cash is not a strategic asset of the portfolio but is a residual to
+the investment process and will be used to meet short-term liquidity
+needs.</li>
+</ul>
+<h3>Asset Class Guidelines</h3>
+<p>Asset allocation will likely be the key determinant of the portfolio's
+total return over the long-term.  Thus, diversification of investment
+across multiple markets that are not similarly affected by economic,
+political, or social developments is highly desirable.  A globally
+diversified portfolio with uncorrelated returns from various assets
+should reduce the variability of returns over time.  Asset classes are
+not to be considered individually, rather, the inclusion or exclusion
+of any particular asset class shall be determined by its potential
+impact to the total portfolio.</p>
+<p>The target asset allocation should provide an expected total return
+equal to or greater than the primary objective of the portfolio while
+avoiding undue risk concentrations presented by any single asset class
+or category.</p>
+<p>The Treasurer has adopted a long-term asset allocation policy that
+identifies the strategic target weights for each of the major asset
+classes.  The table below highlights these asset classes and
+identifies strategic target weights and allowable ranges.</p>
+<h3>Asset Allocation</h3>
+<table>
+<thead>
+<tr>
+<th>type</th>
+<th>Target</th>
+<th>Low</th>
+<th>High</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Equity</td>
+<td>60%</td>
+<td>40%</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>Fixed Income</td>
+<td>40%</td>
+<td>20%</td>
+<td>55%</td>
+</tr>
+<tr>
+<td>Cash / Cash Equivalents</td>
+<td>2%</td>
+<td>1%</td>
+<td>10%</td>
+</tr></tbody></table>
+<h3>Rebalancing</h3>
+<p>The Investment Advisor is expected to continually monitor the
+portfolio mix and provide quarterly reports to the Treasurer. Neither
+the upper nor lower limits of the asset allocations are intended to
+require portfolio activity for the sole purpose of complying with the
+guidelines; however, deviations from these guidelines will be treated
+as discussion topics at portfolio review meetings with the Investment
+Advisor. Rebalancing should be considered at least annually. It is
+recommended that the target allocation be maintained so that the
+portfolio will be able to achieve its long-term goals.</p>
+<h3>Manager Selection</h3>
+<p>The Investment Advisor's selection of Investment Manager(s) must be
+based on prudent due diligence procedures. A qualifying Investment
+Manager must be a registered investment advisor under the Investment
+Advisers Act of 1940, or a bank or insurance company.</p>
+<h3>Active Versus Passive Management</h3>
+<p>Asset allocation will be implemented using both active and passive
+investment managers.  Highly efficient areas of the capital markets
+may be managed using lower cost index or exchange traded funds while
+other asset classes may be managed using active managers and
+strategies that the Advisor believes have the ability to outperform.</p>
+<h3>Investment Advisor Performance Review and Evaluation</h3>
+<p>Performance reports generated by the Investment Advisor shall be
+compiled at least quarterly and communicated to the Treasurer for
+review. The investment performance of the total portfolio, as well as
+asset class components, will be measured against commonly accepted
+performance benchmarks and relevant indices. Consideration shall be
+given to the extent to which the investment results are consistent
+with the investment objectives, goals, and guidelines as set forth in
+this IPS. The Treasurer intends to evaluate the portfolio(s) over at
+least a three-year period but reserves the right to terminate an
+Investment Advisor for any reason.</p>
+<h3>Benchmarks</h3>
+<p>The primary investment objective is to achieve a total return
+exceeding that of the target weighted benchmark established by the
+Treasurer over a full market cycle.  This target benchmark will be
+each asset category benchmark (or appropriate substitute) weighted by
+its target allocation. The relevant benchmarks for each asset class
+are as follows:</p>
+<table>
+<thead>
+<tr>
+<th>Asset Class</th>
+<th>Benchmark</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Domestic Equity</td>
+<td>S&amp;P 500</td>
+</tr>
+<tr>
+<td>International Equity</td>
+<td>MSCI World Equity Ex US NR USD</td>
+</tr>
+<tr>
+<td>Fixed Income</td>
+<td>Barclays Capital U.S. Aggregate Bond</td>
+</tr></tbody></table>
+<h2>Investment Policy Review</h2>
+<p>The Treasurer will review this IPS at least annually to determine
+whether the stated investment objectives remain relevant. It is not
+expected that the IPS will change frequently. In particular,
+short-term changes in the financial markets should not require
+adjustments to the IPS.</p>
+
+
+        <!-- button to view source in github -->
+        <h2><span class="badge badge-secondary"><a href="https://github.com/apache/treasurer-site/blob/main/content/pages/investment_policy.md" style="color:white">Page Source</a></span></h2>
+    </div>
+    <!-- End main content area -->
+
+    <!-- Start footer -->
+    <footer class="navbar-expand-lg navbar-light bg-light">
+      <div class="footer" id="footer">
+        <div class="row container-fluid">
+          <div class="col-sm">
+            <a href="https://www.apache.org/">
+              <img src="https://www.apache.org/img/asf_logo.png" alt="The Apache Software Foundation" style="border: 0; margin-top: 2px" width="200">
+            </a>
+          </div>
+          <div class="col-sm center-align">
+            <a href="https://www.apache.org/foundation/contributing.html">
+              <img src="https://www.apache.org/images/SupportApache-small.png" alt="Support The ASF" height="80" width="80">
+            </a>
+          </div>
+          <div class="col-sm right-align">
+            <a class="acevent" data-format="wide" data-mode="light" data-event="random"></a>
+          </div>
+        </div>
+
+        <div class="container-fluid">
+          Copyright &copy; 2022 The Apache Software Foundation,
+          Licensed under the
+          <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, Version 2.0.</a>
+          <br/>
+          Apache and the Apache feather logo are trademarks or registered trademarks of <a href="https://www.apache.org/">The Apache Software Foundation.</a>
+        </div><!-- #container-fluid -->
+
+      </div>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Start the loading of javascript frameworks (will need to upgrade periodically) -->
+    <script src="https://www.apachecon.com/event-images/snippet.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.slim.min.js"
+      integrity="sha512-6ORWJX/LrnSjBzwefdNUyLCMTIsGoNP6NftMy2UAm1JBm6PRZCO1d7OHBStWpVFZLO+RerTvqX/Z9mBFfCJZ4A=="
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <!-- End the loading of javascript frameworks -->
+
+  </body>
+</html>
