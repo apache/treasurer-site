@@ -304,10 +304,11 @@ each asset category benchmark (or appropriate substitute) weighted by
 its target allocation. The relevant benchmarks for each asset class
 are as follows:
 
-Asset Class            Benchmark
-Domestic Equity        S&P 500
-International Equity   MSCI World Equity Ex US NR USD
-Fixed Income           Barclays Capital U.S. Aggregate Bond
+| Asset Class           | Benchmark |
+| -----------           | --------- |
+| Domestic Equity       | S&P 500   |
+| International Equity  | MSCI World Equity Ex US NR USD |
+| Fixed Income          | Barclays Capital U.S. Aggregate Bond |
 
 
 ## Investment Policy Review
