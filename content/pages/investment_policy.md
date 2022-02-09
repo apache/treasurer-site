@@ -1,3 +1,6 @@
+Title: &nbsp;
+TabTitle: ASF Investment Policy Statement
+
 # Investment Policy Statement
 
 ## Organization
