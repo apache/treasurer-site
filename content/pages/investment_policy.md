@@ -1,4 +1,4 @@
-ORGANIZATION
+# ORGANIZATION
 
 Established in 1999, The Apache Software Foundation ("ASF") is a
 United States 501(c)(3) charitable organization, funded by individual
