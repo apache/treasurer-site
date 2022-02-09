@@ -173,9 +173,9 @@ unanticipated board-approved expenses, and to improve the return on
 funds held in the operating account.
 
 The objectives of this portfolio are in order of priority:
-1.) Preservation of Principal
-2.) Liquidity
-3.) Rate of Return
+1. Preservation of Principal
+2. Liquidity
+3. Rate of Return
 
 The portfolio must be well diversified and consist of fixed-income
 securities rated "A" or better.
