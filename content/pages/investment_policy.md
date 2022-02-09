@@ -250,7 +250,7 @@ identifies strategic target weights and allowable ranges.
 ### Asset Allocation
 
 
-{|-
+{|
 !  !! Target !! Low !! High
 |-
 | Equity || 60% || 40% || 75%
