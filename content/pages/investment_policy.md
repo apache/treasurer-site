@@ -249,6 +249,16 @@ identifies strategic target weights and allowable ranges.
 
 ### Asset Allocation
 
+{| class="wikitable"
+|-
+!  !! Target !! Low !! High
+|-
+| Equity || 60% || 40% || 75%
+|-
+| Fixed Income || 40% || 20% || 55%
+|-
+| Cash / Cash Equivalents || 2% || 1% || 10%
+|}
                        Target  Low   High
 Equity                   60%    40%   75%
 Fixed Income             40%    20%   55%
