@@ -14,15 +14,15 @@ are managed following the bylaws (https://www.apache.org/foundation/bylaws.html)
 ## Purpose
 
 This statement establishes policies, guidelines, and procedures
-related to all investable assets held by The ASF.  In doing so the
+related to all investable assets held by The ASF.  The
 policy:
 * defines the duties and responsibilities of all parties involved in
- the management of investable funds
+ the management of investable funds.
 * identifies the objectives, risk profiles, and benchmarks for each
- purpose-driven investment pool
+ purpose-driven investment pool.
 * outlines policies and procedures relative to the expenditure of
- institutional funds
-* serves to assist the Board in effectively supervising, monitoring,
+ institutional funds.
+* assists the Board in effectively supervising, monitoring,
  and evaluating the investment of The ASF's management of the
  organizations’ investments.
 
@@ -35,12 +35,12 @@ The Board of Directors has a direct oversight role regarding all
 decisions that impact The Apache Software Foundation’s investable
 assets. The Board must ensure that appropriate policies governing the
 management of the portfolio(s) are in place and that these policies
-are being effectively implemented.  In doing so, the Board sets and
+are being effectively implemented.  The Board sets and
 approves the Investment Policy Statement and delegates responsibility
 for the management of these funds to the Treasurer. Based on the
 advice and recommendations of the Treasurer, the Board shall:
 * adopt an investment strategy that addresses the organization's
- operating needs while reflecting the long-term risk-adjusted return
+ operating needs while reflecting the long-term, risk-adjusted return
  objectives of the endowment.
 
 ### Treasurer
@@ -51,16 +51,16 @@ implementation and maintenance of all policies relative to The ASF's
 investable funds and shall:
 * present investment strategy recommendations to the Board.  These
  recommendations should address short and long-term objectives,
- liquidity needs and diversification
+ liquidity needs and diversification.
 * recommend the retention and/or dismissal of an Investment Advisor
- and/or other outside professionals
+ and/or other outside professionals.
 * meet with the Investment Advisor on a regular basis (quarterly /
  semi-annually) to evaluate and assess compliance with investment
  guidelines, performance, outlook and investment strategies; monitor
- asset allocation and rebalance assets
+ asset allocation and rebalance assets.
 * on an annual basis, evaluate whether this policy, investment
  activities, risk management controls and processes remain consistent
- with set goals and objectives
+ with set goals and objectives.
 
 The Treasurer and Assistant Treasurers shall also be responsible for
 the day-to-day administration and implementation of policies
@@ -68,39 +68,39 @@ established by the Board and/or the Treasurer concerning the
 management of investable assets. Specifically, the Treasurer shall:
 * serve as the primary liaison between the Investment Advisor and/or
  other outside professionals that may be retained to assist in the
- management of such funds
+ management of such funds.
 * oversee the day-to-day operational activities subject to policies
- established by the Board
+ established by the Board.
 * contract with any necessary outside service providers, such as:
  Investment Advisors, investment managers, banks and/or trust
- companies etc.
+ companies.
 * ensure that service providers adhere to the terms and conditions of
- their contracts; have no material conflicts of interest with the
+ their contracts and have no material conflicts of interest with the
  interests of The ASF; and ensure that performance monitoring is
  sufficient to provide the Treasurer with timely, accurate and useful
- information
+ information.
 * comply with official accounting and auditing guidelines regarding
- due diligence and ongoing monitoring of investments
-* prepare and issue periodic status reports to the Board
+ due diligence and ongoing monitoring of investments.
+* prepare and issue periodic status reports to the Board.
 
 ### Investment Advisor
 
 The Investment Advisor is responsible for all aspects of managing and
 overseeing the portfolio.  On an ongoing basis the Investment Advisor
 will:
-* monitor the asset allocation to promote diversification in the
- portfolio
+* monitor asset allocation to promote diversification in the
+ portfolio.
 * implement an unbiased, open-architecture approach to
- manager/security selection
-* provide the Treasurer with quarterly performance reports
+ manager/security selection.
+* provide the Treasurer with quarterly performance reports.
 * assist the Treasurer with periodic reviews of this Investment Policy
  including an assessment of the current asset allocation and
- investment objectives
-* supply the Treasurer with other reports or information as requested
+ investment objectives.
+* supply the Treasurer with other reports or information as requested.
 * attend meetings with the Treasurer and/or Board concerning
  performance results, economic outlook, efficacy of investment
  strategy, organization changes (if any), and any other pertinent
- matters identified by the Board, and/or the Investment Advisor.
+ matters identified by the Board and/or the Investment Advisor.
 
 ### Custodian
 
@@ -111,8 +111,7 @@ and receipt of delivery following purchases or sales.  The Custodian
 will provide accounting of all assets owned, purchased, or sold, and
 the movement of assets into or out of The ASF's account(s).
 
-Additional specialists, such as attorneys, auditors, actuaries, and
-others may be employed by the Board to assist in meeting its
+The Board may employ additional specialists, such as attorneys, auditors, and actuaries, to assist in meeting its
 responsibilities and obligations to administer portfolio assets
 prudently.
 
@@ -121,7 +120,7 @@ prudently.
 
 In seeking to attain the investment objectives set forth in this IPS,
 members of the Board, the Treasurer, Assistant Treasurer, the
-Investment Advisor, and all other persons acting as fiduciaries, shall
+Investment Advisor, and all other persons acting as fiduciaries shall
 exercise prudence and appropriate care in accordance with the Uniform
 Prudent Management of Institutional Funds Act (UPMIFA).  All
 investment actions and decisions must be made solely in the interest
@@ -131,19 +130,19 @@ conflicts of interest.  When making any decision relative to the
 expenditure of donated funds, each of the following factors must be
 considered, and properly documented, in the minutes or other records
 of the applicable decision-making body:
-* general economic conditions;
-* possible effect of inflation or deflation;
+* general economic conditions
+* possible effect of inflation or deflation
 * expected tax consequences, if any, of investment decisions or
- strategies;
+ strategies
 * the role that each investment or course of action plays within the
- overall investment portfolio of the fund;
+ overall investment portfolio of the fund
 * expected total return from the income and appreciation of
- investments;
-* other resources of the organization;
+ investments
+* other resources of the organization
 * the needs of the organization and the fund to make distributions and
- preserve capital;
+ preserve capital
 * an asset’s special relationship or special value, if any, to the
- organization’s purposes.
+ organization’s purposes
 
 
 ## Prohibited Investments
@@ -160,9 +159,9 @@ The following investments and investment activities are prohibited:
 
 ## Operating Account
 
-The ASF has established a demand deposit account to support its
+The ASF has a demand deposit account to support its
 day-to-day operating needs.  The ASF will seek to maintain a target
-balance of 50%-75% of the yearly expenses contained in the most recent
+balance of 50%-75% of the yearly expenses reported in the most recent
 board-approved budget in this account to accommodate operating and
 other expenses.
 
@@ -175,7 +174,7 @@ occurring as a result of unanticipated fundraising shortfalls or
 unanticipated board-approved expenses, and to improve the return on
 funds held in the operating account.
 
-The objectives of this portfolio are in order of priority:
+The objectives of this portfolio are, in order of priority:
 1. Preservation of Principal
 2. Liquidity
 3. Rate of Return
@@ -190,7 +189,7 @@ The ASF's Endowment is meant to support the organization in perpetuity
 and thus has a longer time horizon and a substantially different risk
 profile than the Operating Reserve.  In all instances, donor intent
 shall be respected when decisions are rendered concerning the
-investment or expenditure of donor restricted funds. If a donor, in
+investment or expenditure of donor-restricted funds. If a donor, in
 the gift instrument, has directed that appreciation not be spent, The
 Apache Software Foundation shall comply with that directive and
 consider it when making decisions regarding the management and
@@ -231,14 +230,14 @@ volatility risk.
 ### Asset Class Guidelines
 
 Asset allocation will likely be the key determinant of the portfolio's
-total return over the long-term.  Thus, diversification of investment
+total return over the long term.  Thus, diversification of investment
 across multiple markets that are not similarly affected by economic,
 political, or social developments is highly desirable.  A globally
 diversified portfolio with uncorrelated returns from various assets
 should reduce the variability of returns over time.  Asset classes are
-not to be considered individually, rather, the inclusion or exclusion
+not to be considered individually; rather, the inclusion or exclusion
 of any particular asset class shall be determined by its potential
-impact to the total portfolio.
+impact on the total portfolio.
 
 The target asset allocation should provide an expected total return
 equal to or greater than the primary objective of the portfolio while
