@@ -1,0 +1,54 @@
+site:
+  name: Apache Treasurer
+  description: The official website of the Apache Treasurer
+  domain: treasurer.apache.org
+  logo: /extras/favicon.ico
+  repository: https://github.com/apache/treasurer-site/blob/main/content/
+  trademarks: Apache HTTP Server, Apache, and the Apache feather logo are trademarks of The Apache Software Foundation.
+theme: theme/apache
+
+plugins:
+  toc:
+    toc_headers: r"h[1-6]"
+  sitemap:
+    exclude:
+      - "tag/"
+      - "category/"
+    format: "xml"
+    priorities:
+      articles: 0.1
+      indexes: 0.1
+      pages: 0.8
+    changefreqs:
+      articles: 'never'
+      indexes: 'never'
+      pages: 'monthly'
+  use:
+    - toc
+    - gfm
+    - sitemap
+
+content:
+  static:
+    - .htaccess
+    - images
+  pages: pages
+
+## Enable ATOM feed and Disable other feeds
+#FEED_DOMAIN = SITEURL
+#FEED_ALL_ATOM = 'feeds/all.atom.xml'
+#CATEGORY_FEED_ATOM = None
+#TRANSLATION_FEED_ATOM = None
+#AUTHOR_FEED_ATOM = None
+#AUTHOR_FEED_RSS = None
+#
+## Sitemap Generator
+#
+## Unused links
+#LINKS = ( )
+#SOCIAL = ( )
+#
+#DEFAULT_PAGINATION = False
+#
+# Uncomment following line if you want document-relative URLs when developing
+# RELATIVE_URLS = True
