@@ -4,19 +4,19 @@ TabTitle: ASF Corporate Treasurer Information
 
 <div class="panel panel-success">
   <div class="panel-heading">
-    <h3 class="panel-title">ASF Corporate Treasurer Overview</h3>
+    <h2 class="panel-title">ASF Corporate Treasurer overview</h2>
   </div>
   <div class="panel-body">
     <p>
     The ASF's Treasurer is an <a href="https://www.apache.org/foundation/#who-runs-the-asf">executive officer</a> with responsibility 
-    for managing our corporate finances, including overseeing payments recieved and paid, and designing and executing appropriate financial processes.
+    for managing our corporate finances, including overseeing payments received and paid, and designing and executing appropriate financial processes.
     </p>
     <p>
     The Treasurer submits a <a href="https://whimsy.apache.org/board/minutes/Treasurer">monthly report to the board</a>, 
-    and works closely with our accounting firm <a href="http://www.ignitespot.com/">IgniteSpot</a>.  The Treasurer works 
+    and works closely with our accounting firm, <a href="http://www.ignitespot.com/"e target="_blank">IgniteSpot</a>.  The Treasurer works 
     with our CPA to ensure that our taxes are filed regularly.  The Treasurer works with Marketing & Public Relations to ensure that
-    our quarterly and annual reports contain up-to-date financial information about the Foundation.  And the Treasurer collaborates 
-    with the Vice President of Fundraising to ensure that sponsors and donors payments are received, tracked, and recognized.  The Treasurer 
+    our quarterly and annual reports about the Foundation contain up-to-date financial information.  And the Treasurer collaborates 
+    with the Vice President of Fundraising to ensure that sponsors' and donors' payments are received, tracked, and recognized.  The Treasurer 
     ensures the President and all executive officers have access to past and present financial information about their budgets for the 
     purposes of planning and tracking.
     </p>
@@ -28,7 +28,7 @@ TabTitle: ASF Corporate Treasurer Information
     <h2 class="panel-title">Officers' and Members' questions</h2>
   </div>
   <div class="panel-body">
-    <p>Officers with questions for the treasurer, for example about invoicing and bill pay, can find that information on our foundation internal
+    <p>Officers with questions for the Treasurer, for example about invoicing and bill payments, can find that information on our Foundation internal
       <a href="https://cwiki.apache.org/confluence/display/ASFP/Treasurer+Internal">Treasurer's Wiki</a>.  </p>
   </div>
 </div>
