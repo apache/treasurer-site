@@ -50,7 +50,7 @@ SLUGIFY_SOURCE = 'basename'
 PAGE_SAVE_AS = '{slug}.html'
 
 # We want to serve any images
-STATIC_PATHS = ['.htaccess', 'images']
+STATIC_PATHS = ['.htaccess', 'images', 'css', 'js']
 
 # We don't use articles, but we don't want pelican to think
 # that content/ contains articles.
