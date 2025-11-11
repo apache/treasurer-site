@@ -29,6 +29,6 @@ TabTitle: ASF Corporate Treasurer Information
   </div>
   <div class="panel-body">
     <p>Officers with questions for the Treasurer, for example about invoicing and bill payments, can find that information on our Foundation internal
-      <a href="https://cwiki.apache.org/confluence/display/ASFP/Treasurer+Internal">Treasurer's Wiki</a>.  </p>
+      <a href="https://cwiki.apache.org/confluence/x/2o9EF">Treasurer's Wiki</a>.  </p>
   </div>
 </div>
