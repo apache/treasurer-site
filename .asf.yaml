@@ -5,12 +5,25 @@ github:
     # Enable issue management
     issues: true
 
+  rulesets:
+    - name: "Default Branch Protection"
+      type: branch
+      branches:
+        includes:
+          - "~DEFAULT_BRANCH"
+          - "release/*"
+          - "rel/*"
+        excludes: []
+      bypass_teams:
+        - root
+      restrict_deletion: true
+      restrict_force_push: true
 pelican:
-  notify:         team@treasurer.apache.org
-  target:         asf-site
-  theme:          theme/apache
-  whoami:         main
+  notify: team@treasurer.apache.org
+  target: asf-site
+  theme: theme/apache
+  whoami: main
 
 staging:
-  profile:  ~
-  whoami:   asf-site
+  profile:
+  whoami: asf-site
